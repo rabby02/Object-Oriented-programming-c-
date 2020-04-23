@@ -1,19 +1,26 @@
-#include<bits/stdc++.h>
+#include <iostream>
 using namespace std;
-class constructest
-{
+class TestConstructor{
+
 private:
-    int sId;
-    string sturdentname;
+    int studentId;
+    string studentName;
 
 public:
-    void constructest(int x,string n)
+    TestConstructor() /// without parameter constructor
     {
-        sId=x;
-        n="Rabby";
+        studentId = 0;
+        studentName = "";
+    }
+
+    TestConstructor(int id, string name)
+    {
+        this->studentId = id;
+        this->studentName = name;
     }
 };
 int main()
 {
-    constructest c(12,"Rabby");
+    TestConstructor object(10,"Rabby");
+    cout<<object.TestConstructor()<<endl;
 }
