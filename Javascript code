@@ -1,0 +1,110 @@
+document.write("<i>Hey Hello again<br></i>");
+document.write("Hello World<br>");
+var x="CSTE<br>";
+document.write(x);
+let firstname="Yahoo";
+console.log(firstname);
+var i=10;
+if(i<15)
+document.write("i is less than 15<br>");
+else
+document.write("I am not in if");
+  
+var x="Hello World";
+console.log(x);
+var x1="String";
+console.log(x1);
+var x2 = ["HTML","CSS","Javascript"];
+document.write(x2);
+var s={
+    name:"Rabby",
+    country:"Bangladesh"
+};
+document.write(s);
+document.write("<br>");
+document.write(typeof s);
+document.write("<br>");
+var a=10;
+var b=12;
+var c=a+b;
+document.write(c);
+document.write("<br>");
+
+var x=10;
+x--;
+var y=12;
+
+document.write(x+y);
+document.write("<br>");
+var x1=12;
+var x2=3;
+document.write(x1/x2);
+var z=14;
+z--;
+t=2;
+document.write(z%t);
+console.table([1,2,3]);
+console.time("Test");
+console.error("Something went wrong");
+var x;
+for(x=0;x<3;x++)
+{
+    console.warn("Error");
+}
+console.timeEnd("Test");
+var day=1;
+switch(day)
+{
+    case 0:
+        document.write("Today is monday");
+    break;
+    case 1:
+        document.write("Sunday<br>");
+    break;
+    case 2:
+        document.write("Today is friday");
+    break;
+    case 3:
+        document.write("today is wednesday");
+    break;
+
+    default:
+        document.write("Enter the valid date");
+
+}
+alert("Hello Everybody");
+var a=10;
+var b=15;
+if(a>b)
+{
+    alert("a is greater");
+}
+else
+{
+    alert("b is greater everybody");
+}
+//confirm("Do you like it?");
+//var a=prompt("What is your name?");
+//alert(a);
+//var t=prompt("Enter your number?");
+var t=90;
+if(t>=12&&t<=20)
+{
+    document.write("Yourresult is failed");
+}
+else if(t>=35&&t<=70)
+{
+    document.write("You are passed very nearly");
+}
+else if(t>80&&t<=120)
+{
+    document.write("You are excellent");
+}
+
+function summation()
+{
+    document.write("Hello World");
+}
+summation();
+summation();
+summation();
