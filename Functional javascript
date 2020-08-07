@@ -1,0 +1,113 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@rabby02 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+rabby02
+/
+Object-Oriented-programming-c-
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Object-Oriented-programming-c-/test.js /
+@rabby02
+rabby02 Add files via upload
+Latest commit 911e7fe 5 minutes ago
+ History
+ 1 contributor
+67 lines (56 sloc)  1.17 KB
+  
+//store a function into a variable//
+function sayName(name)
+{
+    return 'Hello ' + name;
+}
+var hello=sayName;
+var anotherHello=hello; //storing function in different variables//
+console.log(anotherHello('Yasin Rabby'));
+
+
+function addIt(a,b)
+{
+    return "Sum is ";
+  
+}
+
+var x=addIt;
+var y=x;
+console.log(y(2,3));
+
+//store a function intop an array//
+
+var arr=[1,2,3];
+arr.push("Rabby");
+console.log(arr);
+arr.shift();
+console.log(arr);
+
+//A function can be stored as an object field//
+let person=
+{
+    name:'Rabby',
+    sayName:sayName
+}
+console.log(person);
+
+var Res=
+{
+    name:"Yasin",
+    Roll:"ASH1901034M",
+    print: function()
+    {
+        console.log("Hello Rabby");
+    }
+}
+console.log(Res);
+//We can create function as needed//
+//when we need string we use string//
+var sum=10+(function(){return 20})();//self invoking function//
+console.log(sum);
+//we can pass a function as an argument//
+function helLo(name)
+{
+    return name;
+}
+console.log(helLo('Rabby'));
+
+function Wow(name,helLo)
+{
+    return helLo(name);
+}
+var result=Wow("Rabby khan",sayName);
+console.log(result);
+
+var rex=base(2)(3);
+console.log(rex);
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
